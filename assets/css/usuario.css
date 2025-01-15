@@ -13,9 +13,14 @@
     box-sizing: border-box;
 }
 
+
+.menu > li > a {
+    color: white;
+}
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: var(--background-color);
+    background-color: #000033;
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -26,9 +31,13 @@ body {
     padding: 2rem;
 }
 
+
+
 h1 {
     font-size: 2rem;
+    margin-top: 50px;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .card-grid {

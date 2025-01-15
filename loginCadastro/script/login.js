@@ -108,7 +108,7 @@ btn_login.addEventListener('click', ()=> {
 
     if (loginEmail.value == 'ayanowho@gmail.com' && loginPassword.value == 'ayano30k@2025' ) {
 
-        window.location = '../../../usuarios/ayano30k/ayano30k.html';
+        window.location = '30k/usuarios/ayano30k/ayano30k.html';
 
     }
 })
