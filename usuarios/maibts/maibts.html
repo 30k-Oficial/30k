@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard MaiBts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/usuario.css">
+
+    <style>
+             .progress-bar-fill {
+                  width: 0%;
+                  height: 100%;
+                  background-color: var(--secondary-color);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Olá, MaiBts</h1>
+        
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Seu Saldo</span>
+                    <i class="card-icon fas fa-credit-card"></i>
+                </div>
+                <div class="card-content">R$ 100,00 <br><span style="color: green; font-size: 17px;">+ 71,91</span></div>
+                
+
+                <div class="container-btn-saldo-usuario">
+                    <a class="btn-saldo-usuario" href="">Retirar</a>
+                    <a class="btn-saldo-usuario" href="">Deposita</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Seu Cupom</span>
+                    <i class="card-icon fas fa-gift"></i>
+                </div>
+                <div class="card-content" style="color: var(--secondary-color);">DESCONTO025</div>
+                <div class="card-subtitle">0,25 centavos de desconto na próxima Trasferencia</div>
+            </div>
+        </div>
+        
+        <div class="investment-area">
+            <div class="investment-header">
+                <h2 class="investment-title">Área de Investimento</h2>
+                <p class="investment-description">Faça seu dinheiro trabalhar para você</p>
+            </div>
+            <div class="investment-content">
+                <div class="investment-stat">
+                    <span>Rendimento Atual</span>
+                    
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                </div>
+                <div class="button-group">
+                    <a href="" class="button button-primary">
+                        <i class="fas fa-chart-line"></i> Meus Investimentos
+                    </a>
+                    <a href="" class="button button-secondary">
+                        Ver Oportunidades <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
